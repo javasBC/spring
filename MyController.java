@@ -23,7 +23,7 @@ import org.springframework.web.bind.annotation.RestController;
         public String multi(@RequestParam(value = "a", defaultValue = "0") Integer a,
                           @RequestParam(value = "b", defaultValue = "0") Integer x)
         {
-            return String.format("%d + %d = %d",a, x, a+x)+"from the first shit";
+            return String.format("%d + %d = %d",a, x, a+x)+"multi";
         }
 
         // exercise:
